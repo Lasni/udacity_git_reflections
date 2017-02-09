@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+- When you initialize a repository an empty repository gets created. Most of the other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.

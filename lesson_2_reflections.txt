@@ -6,3 +6,15 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 - You can bundle up all the files that pertain to a one single logical change in the staging area and then commit them at once. Often times files are dependant on each other. For instance, .html and .css files.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- When you would like to work on an altered version of the project at the same time or just need a duplicate
+
+How do the diagrams help you visualize the branch structure?
+- I know what gets affected by a commit and what doesn't
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- A new master branch, stemming from the branch that was checked out when making the merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Automatic is less work. Manual merging offers more control.
